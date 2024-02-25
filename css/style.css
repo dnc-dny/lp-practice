@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+*{
+  box-sizing: border-box;
+}
+
 header{
   background: #fff;
 }
@@ -15,11 +19,22 @@ header{
   clear: both;
 }
 
-.fas{
+.fa-archway{
   float: left;
   color: #777;
   margin: 15px 0;
 }
+
+.fa-bars{
+  float: right;
+  color: #ccc;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 3px 10px;
+  display: none !important;
+}
+
 
 .btn{
   float: right;
@@ -40,7 +55,7 @@ header{
   background: url(../img/keyvisual/keyvisual.jpg) no-repeat center/cover;
 }
 
-.maintitle{
+.main-title{
   text-align: center;
   padding-top: 400px;
   padding-bottom: 30px;
@@ -49,7 +64,7 @@ header{
   color: #6ba7eb;
 }
 
-.subtitle{
+.sub-title{
   text-align: center;
   padding-bottom: 400px;
   font-size: 40px;
@@ -61,6 +76,13 @@ header{
   background: #e3f2fd;
 }
 
+.works{
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .image{
   width: 40%;
   text-align: center;
@@ -68,16 +90,12 @@ header{
 
 .letter{
   width: 60%;
+  text-align: center;
 }
 
 .pc{
   width: 250px;
-}
-
-.works{
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
+  vertical-align: top;
 }
 
 .title{
@@ -86,12 +104,15 @@ header{
   letter-spacing: 10px;
 }
 
-.letter-title{
+.work-title{
   padding-top: 20px;
 }
 
+li{
+  list-style: none;
+}
+
 .text{
-  text-align: center;
   padding-top: 35px;
   font-size: 15px;
   line-height: 18px;
@@ -102,44 +123,51 @@ header{
   background: #fff;
 }
 
-.skills-title{
+.title2{
   padding: 50px 0;
 }
 
-.skills-images ul{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+.skills-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 70px;
 }
 
-.skills-images ul li img{
+.skills-images li a{
+  display: flex;
+}
+
+.skills-images li img{
   width: 300px;
   height: 300px;
-  margin-right: 100px;
-  margin-bottom: 100px;
-  opacity: 0.7;
 }
 
-.skills-images ul li img:nth-child(3n){
+.skills-images li{
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+
+.skills-images li:nth-child(3n){
   margin-right: 0;
 }
 
-
-.skills-images ul li img:nth-child(n+4){
+.skills-images li:nth-child(n+4){
   margin-bottom: 0;
 }
 
-.skills-images ul li img:hover{
+.skills-images li img{
+  opacity: 0.7;
+}
+
+.skills-images li img:hover{
   opacity: 1;
 }
 
 .plan{
   background: #d0dfea;
-}
-
-.plan-title{
-  padding: 50px 0;
-  text-align: center;
 }
 
 .chart{
@@ -214,4 +242,4 @@ footer{
   letter-spacing: 0.5px;
   padding: 20px 0;
   float: right;
-}
+} 
