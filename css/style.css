@@ -78,6 +78,9 @@ header{
 
 .works{
   padding-top: 50px;
+}
+
+.flex{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,9 +131,6 @@ li{
 }
 
 .skills-images{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
   margin-bottom: 70px;
@@ -210,12 +210,6 @@ thead tr th:first-child,tbody th{
 
 nav{
   padding: 200px 0;
-}
-
-.icon{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .icon li a{
