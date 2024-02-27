@@ -120,6 +120,7 @@ li{
   flex-wrap: wrap;
   flex-direction: row;
   padding-top: 50px;
+  font-size: 0;
 }
 
 .skills-images li a{
@@ -134,11 +135,13 @@ li{
 
 .skills-images li img:hover{
   opacity: 1;
+  transition-duration: 0.3s;
 }
 
 .skills-images li{
   margin-right: 100px;
   margin-bottom: 100px;
+  flex-grow: 1;
 }
 
 .skills-images li:nth-child(3n){
@@ -198,11 +201,13 @@ thead tr th:first-child,tbody th{
   font-size: 40px;
   width: 185px;
   text-decoration: none;
+  opacity: 0.7;
 }
 
 .icon li a:hover{
   background: #fff;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
+  opacity: 1;
 }
 
 footer{
