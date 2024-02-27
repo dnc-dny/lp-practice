@@ -36,11 +36,11 @@ header{
   font-size: 12px;
   padding: 12px 14px;
   text-decoration: none;
+  transition-duration: 0.3s;
 }
 
 .btn:hover{
   color: #333;
-  transition-duration: 0.3s;
 }
 
 .keyvisual{
@@ -131,11 +131,11 @@ li{
   width: 300px;
   height: 300px;
   opacity: 0.7;
+  transition-duration: 0.3s;
 }
 
 .skills-images li img:hover{
   opacity: 1;
-  transition-duration: 0.3s;
 }
 
 .skills-images li{
@@ -202,11 +202,11 @@ thead tr th:first-child,tbody th{
   width: 185px;
   text-decoration: none;
   opacity: 0.7;
+  transition-duration: 0.3s;
 }
 
 .icon li a:hover{
   background: #fff;
-  transition-duration: 0.3s;
   opacity: 1;
 }
 
