@@ -278,8 +278,12 @@ footer{
     margin-top: 0;
   }
 
-  .skills-images li:nth-child(4n){
+  .skills-images li:nth-child(3n+1){
     margin-top: 80px;
+  }
+
+  .skills-images li:nth-child(1){
+    margin-top: 0;
   }
 }
 
@@ -339,8 +343,12 @@ footer{
     margin-top: 0;
   }
 
-  .skills-images li:nth-child(4n){
+  .skills-images li:nth-child(3n+1){
     margin-top: 80px;
+  }
+
+  .skills-images li:nth-child(1){
+    margin-top: 0;
   }
 
   th{
