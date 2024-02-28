@@ -240,7 +240,7 @@ footer{
 
 @media(max-width: 1199px){
   .inner{
-    width: 100%;
+    width: 97%;
   }
 
   .keyvisual{
@@ -266,14 +266,16 @@ footer{
   }
 
   .skills-images{
+    display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .skills-images li{
     margin-right: 0;
-    margin-bottom: 0;
+    margin-top: 0;
   }
 
   .skills-images li:nth-child(4n){
@@ -283,7 +285,7 @@ footer{
 
 @media(max-width: 767px){
   .inner{
-    width: 100%;
+    width: 97%;
   }
 
   .btn{
@@ -325,14 +327,16 @@ footer{
   }
 
   .skills-images{
+    display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
 
   .skills-images li{
     margin-right: 0;
-    margin-bottom: 0;
+    margin-top: 0;
   }
 
   .skills-images li:nth-child(4n){
