@@ -5,12 +5,17 @@
 }
 
 header{
+  height: 80px;
   background: #fff;
   padding: 15px 0;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1;
+}
+
+main{
+  padding-top: 80px;
 }
 
 .inner{
@@ -79,6 +84,7 @@ header{
 
 .work{
   background: #e3f2fd;
+  padding-top: 50px;
 }
 
 .flex{
@@ -99,7 +105,6 @@ header{
 
 .pc{
   width: 250px;
-  padding-top: 50px;
   vertical-align: top;
 }
 
@@ -131,6 +136,7 @@ li{
 }
 
 .skills-images{
+  display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   padding-top: 50px;
@@ -215,13 +221,11 @@ thead tr th:first-child,tbody th{
   font-size: 40px;
   width: 185px;
   text-decoration: none;
-  opacity: 0.7;
-  transition-duration: 0.3s;
+  transition-duration: 0.5s;
 }
 
 .icon li a:hover{
   background: #fff;
-  opacity: 1;
 }
 
 footer{
@@ -245,12 +249,8 @@ footer{
     padding: 250px 0;
   }
 
-  .pc{
-    padding-top: 0;
-  }
-
   .work{
-    padding: 50px 0;
+    padding-bottom: 50px;
   }
 
   .works{
@@ -308,12 +308,8 @@ footer{
     font-size: 30px;
   }
 
-  .pc{
-    padding-top: 0;
-  }
-
   .work{
-    padding: 50px 0;
+    padding-bottom: 50px;
   }
 
   .works{
