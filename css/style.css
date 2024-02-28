@@ -140,7 +140,6 @@ li{
   flex-wrap: wrap;
   flex-direction: row;
   padding-top: 50px;
-  font-size: 0;
 }
 
 .skills-images li a{
@@ -160,16 +159,15 @@ li{
 
 .skills-images li{
   margin-right: 100px;
-  margin-bottom: 100px;
-  flex-grow: 1;
+  margin-top: 100px;
 }
 
 .skills-images li:nth-child(3n){
   margin-right: 0;
 }
 
-.skills-images li:nth-child(n+4){
-  margin-bottom: 0;
+.skills-images li:nth-child(-n+3){
+  margin-top: 0;
 }
 
 .plan{
